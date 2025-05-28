@@ -17,7 +17,7 @@ function reverseString() {
       reversed =reversed + originalString[counter]; // Add each character to the reversed string
   }
 
-  // Display the reversed string in the HTML element with id "reversedOutput"
-  document.getElementById("reversedOutput").innerHTML =
+  // output"
+  document.getElementById("result").innerHTML =
       "<p>The reversed string is " + reversed + ".</p>";
 }
