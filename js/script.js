@@ -14,7 +14,7 @@ function reverseString() {
 
   // Use a for loop to reverse the string
   for (let counter = originalString.length - 1; counter >= 0; counter--) {
-      reversed = reversed + originalString(counter); // Add each character to the reversed string
+      reversed = reversed + originalString[counter]; // Add each character to the reversed string
   }
 
   // Display the reversed string in the HTML element with id "reversedOutput"
