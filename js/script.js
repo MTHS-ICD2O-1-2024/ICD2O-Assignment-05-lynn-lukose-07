@@ -15,7 +15,7 @@ function reverseString() {
   // Use a for loop in a similar structure to the calculate() function
   for (let counter = 1; counter <= originalString.length; counter++) {
       // Get character from the end of the original string
-      let index = originalString.length - counter;
+      let counter = originalString.length - counter;
       reversed = reversed + originalString[index];
   }
 
