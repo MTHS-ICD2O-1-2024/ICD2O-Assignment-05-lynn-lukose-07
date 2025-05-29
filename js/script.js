@@ -20,5 +20,6 @@ for (let counter = originalString.length - 1; counter >= 0; counter--) {
 
   // output"
 document.getElementById("result").innerHTML =
+    "<p>The original string is " + originalString + ".</p>"
     "<p>The reversed string is " + reversed + ".</p>"
 }
