@@ -15,7 +15,7 @@ let originalString = document.getElementById("inputString").value
   // Use a for loop to reverse the string
 for (let counter = originalString.length - 1; counter >= 0; counter--) {
     const char = originalString.charAt(counter)
-    const reversed = reversed + char // Add each character to the reversed string
+    reversed = reversed + char // Add each character to the reversed string
 }
 
   // output"
