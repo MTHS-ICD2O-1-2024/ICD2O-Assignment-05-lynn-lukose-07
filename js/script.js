@@ -5,7 +5,7 @@
 // This file contains the JS functions for index.html
 
 "use strict"
-
+// this function reverses words using a for loop
 function reverseString() {
   let reversed = "" // Initialize an empty string to store the reversed result
 
